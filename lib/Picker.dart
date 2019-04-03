@@ -17,8 +17,8 @@ typedef PickerValueFormat<T> = String Function(T value);
 class PickerLocalizations {
   static const Map<String, Map<String, Object>> localizedValues = {
     'en': {
-      'cancelText': 'Cancel',
-      'confirmText': 'Confirm',
+      'cancelText': 'ОТМЕНА',
+      'confirmText': 'ОК',
       'ampm': ['AM', 'PM'],
     },
     'zh': {
@@ -828,33 +828,33 @@ class DateTimePickerAdapter extends PickerAdapter<DateTime> {
   final List<int> customColumnType;
 
   static const List<String> MonthsList_EN = const [
-    "Jan",
-    "Feb",
-    "Mar",
-    "Apr",
-    "May",
-    "Jun",
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct",
-    "Nov",
-    "Dec"
+    "Янв",
+    "Фев",
+    "Мар",
+    "Апр",
+    "Май",
+    "Июн",
+    "Июл",
+    "Авг",
+    "Сен",
+    "Окт",
+    "Ноя",
+    "Дек"
   ];
 
   static const List<String> MonthsList_EN_L = const [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
+    "Январь",
+    "Февраль",
+    "Март",
+    "Апрель",
+    "Май",
+    "Июнь",
+    "Июль",
+    "Август",
+    "Сентябрь",
+    "Октябрь",
+    "Ноябрь",
+    "Декабрь"
   ];
 
   DateTimePickerAdapter({
